@@ -1,0 +1,27 @@
+@import '../../../assets/scss/style.scss';
+
+.hero-footer {
+    padding: 120px 0px;
+
+    &-main-title {
+        @include flex;
+    }
+
+    &-title {
+        font-family: 'Gilroy-Bold';
+        font-size: 24px;
+        line-height: 28px;
+        color: $primary-color;
+        padding-bottom: 20px;
+    }
+
+    &-disc {
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+        line-height: 185%;
+        color: $primary-color;
+        opacity: 0.8;
+        padding-bottom: 14px;
+    }
+
+}

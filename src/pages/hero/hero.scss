@@ -1,0 +1,54 @@
+@import '../../assets/scss/style.scss';
+
+
+.hero-sec {
+    background-image: url(../../assets/images/home-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    .hero-text {
+        &-main {
+            padding: 30px 0px 14px 0px;
+            color: $white-color;
+            font-family: 'Gilroy-Bold';
+            font-size: 80px;
+            line-height: 130%;
+            text-align: center;
+            letter-spacing: -0.01em;
+            text-transform: capitalize;
+
+        }
+
+        &-sub {
+            padding: 0px 0px 45px 0px;
+            color: $white-color;
+            font-family: 'Gilroy-Regular';
+            font-size: 24px;
+            line-height: 160%;
+            text-align: center;
+            opacity: 0.8;
+        }
+
+        &-search {
+            @include flex;
+            justify-content: center;
+
+            .search {
+                border-radius: 42px;
+                padding: 15.5px 0px 15.5px 20px;
+                width: 344px;
+                border: 0.861538px solid rgba(255, 255, 255, 0.6);
+                font-size: 18px;
+                background: rgba(255, 255, 255, 0.15);
+            }
+
+            .search-icon {
+                position: relative;
+                right: 48px;
+            }
+
+        }
+    }
+}

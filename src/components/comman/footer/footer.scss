@@ -1,0 +1,49 @@
+@import '../../../assets/scss/style.scss';
+
+
+
+
+.footer {
+    background-color: $background-color;
+
+    &-sec {
+        max-width: 1064px !important;
+        font-size: 15px;
+
+
+        &-main {
+            padding-bottom: 118px;
+
+            .footer-logo {
+                font-family: 'Gilroy-Bold';
+                font-size: 28px;
+                padding-bottom: 29px;
+            }
+
+            .footer-title {
+                font-size: 17px;
+                font-family: 'Gilroy-Medium';
+                color: $secondary-color;
+                font-family: 'DM Sans', sans-serif;
+            }
+
+            ul {
+                li {
+                    padding: 8px;
+
+                    .social-logo {
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+
+        &-sub {
+            padding-bottom: 56px;
+
+            .copyright {
+                opacity: 0.5;
+            }
+        }
+    }
+}
